@@ -1,11 +1,11 @@
 package com.tts;
 public class TicTacToeClass
 {
-	// Instance Variables
+	
 	private char[][] board;
 	private int turns;
 
-	// Constructors
+	
 	public TicTacToeClass()
 	{
 		board = new char[3][3];
@@ -16,7 +16,7 @@ public class TicTacToeClass
 				board[r][c] = ' ';
 	}
 
-	// Accessor Methods
+	
 
 	public boolean isWinner( char p )
 	{
@@ -89,7 +89,7 @@ public class TicTacToeClass
 		System.out.println("     0 1 2 ");
 	}
 
-	// Modifiers
+	
 	public void playMove( char p, int r, int c )
 	{
 		board[r][c] = p;
